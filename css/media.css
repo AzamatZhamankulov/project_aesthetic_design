@@ -41,6 +41,9 @@
     font-size: 36px;
   }
 
+  .title_right_span {
+    margin-bottom: 60px;
+  }
 }
 
 @media screen and (max-width: 680px) {
@@ -50,5 +53,19 @@
 
   .promo_section_wrapper {
     font-size: 30px;
+  }
+
+  .title_right_span {
+    margin-bottom: 40px;
+  }
+
+  footer a {
+    margin: 0 0 40px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 200;
   }
 }
