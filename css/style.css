@@ -66,7 +66,7 @@ body {
   text-align: center;
   text-transform: uppercase;
   /* padding: 200px 0; */
-  margin-bottom: 60px;
+  margin-bottom: 120px;
 }
 
 .promo_section_wrapper {
@@ -85,4 +85,104 @@ body {
   font-family: "Roboto", sans-serif;
   font-style: italic;
   margin: 0;
+}
+
+.service_section {
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 90px;
+}
+
+.service_title_wrapper {
+  text-align: center;
+}
+
+.service_section_title {
+  font-size: 50px;
+  color: #000;
+  display: inline-block;
+}
+
+.title_span {
+  color: #ffcc01;
+  border-right: 2px solid #ffcc01;
+  padding-right: 15px;
+}
+
+.title_right_span {
+  display: inline-block;
+  max-width: 500px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  border-left: 2px solid #000;
+  margin-bottom: 100px;
+}
+
+.service_boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 45%;
+  border: 6px solid #ebebeb;
+  margin: 30px 25px;
+  background: url(/images/icon_paper_flugzeug_yellow.png) 95% 95% no-repeat;
+}
+
+.box_title {
+  font-size: 29px;
+  font-weight: bold;
+  margin: 35px 0 30px 35px;
+  padding: 0;
+}
+
+.box_descr {
+  font-size: 20px;
+  padding: 0;
+  margin: 0 0 50px 35px;
+}
+
+.box_link {
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 30px 35px;
+}
+
+.box:hover {
+  border: none;
+  background: #ffcc01 url(/images/icon_paper_flugzeug_white.png) 95% 93% no-repeat;
+
+  .box_link {
+    color: #fff;
+  }
+}
+
+footer {
+  background: #ffcc01;
+  text-align: center;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_wrapper a {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  background: #000;
+  margin: 75px 12px 60px;
+}
+
+footer a {
+  margin: 0 0 70px;
+  display: inline-block;
 }
